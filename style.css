@@ -1,0 +1,80 @@
+body{background-color: #ececec}
+
+
+body{
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+font-size: 13px;
+}
+h1,h2{background-color:#9fd3c7;
+      border-radius: 5px;
+
+}
+h1{font-size: 20px;}
+h2{font-size: 20px;}
+h3{font-size: 13px;}
+*{color:black;}
+.col1{width: 40%;}
+.col2{width: 30%;}
+.col3{width: 20%;}
+
+.containerleft {
+  display: flex; /* Define o contêiner como flexível */
+  justify-content: space-between; /* Distribui o espaço entre os itens */
+  align-items: stretch; /* Alinha os itens para preencher a altura do contêiner */
+  gap: 1rem; /* Espaçamento entre os itens */
+  width: 100%; /* Garante que o contêiner ocupe a largura total */
+  min-height: 100vh; /* Garante que o contêiner ocupe no mínimo toda a altura da janela de visualização */
+}
+.profile {
+  flex: 0 0 20%; /* Ocupará 25% da largura do contêiner */
+  max-width: 20%; /* Garante que não exceda 25% da largura */
+  padding: 20px;
+  background-color: #142d4c; /* Azul-marinho */
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+#foto{
+  border-radius: 50%;
+}
+#objetivo{
+  font-size: 13px;
+  color: white;
+  background-color: #142d4c;
+  
+}
+#name{
+  color: #9fd3c7;
+  font-size: 25px;
+  background-color: #142d4c;
+}
+.empresa{
+  font-weight: bold;
+  color: #385170;
+  font-size: 15px;
+}
+.data{
+  font-size: 10px;
+}
+.skill-container{
+display:inline-flex
+}
+.technical-proficiencies {
+  margin-top: 20px; /* Ajuste o valor conforme necessário */
+}
+.skill-container {
+  margin-bottom: 20px; /* Ajuste o valor conforme necessário */
+}
+.position{
+  font-weight: bold;
+}
+.profile h1, 
+.profile h2, 
+.profile p {
+    margin-bottom: 15px; /* Ajuste conforme necessário */
+}
